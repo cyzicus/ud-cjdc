@@ -3,7 +3,7 @@ package us.cyzic.dataTypes;
 /**
  * Created by jasoncmiller on 2/11/16.
  */
-public class decimals {
+public class Decimals {
     private static int myInt = 5;
     private static float myFloat = 5f;
     private static double myDouble1 = 5d; // Explicitly tells Java that value is a double

@@ -22,8 +22,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="wholeNumbers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/us/cyzic/dataTypes/wholeNumbers.java">
+      <file leaf-file-name="WholeNumbers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/us/cyzic/dataTypes/WholeNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
@@ -32,12 +32,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="decimals.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/us/cyzic/dataTypes/decimals.java">
+      <file leaf-file-name="Decimals.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/us/cyzic/dataTypes/Decimals.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.77720207">
+            <state vertical-scroll-proportion="0.0">
               <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CharsAndStrings.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/us/cyzic/dataTypes/CharsAndStrings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.103626944">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,6 +80,7 @@
         <option value="$PROJECT_DIR$/src/us/cyzic/dataTypes/numbers.java" />
         <option value="$PROJECT_DIR$/src/us/cyzic/dataTypes/wholeNumbers.java" />
         <option value="$PROJECT_DIR$/src/us/cyzic/dataTypes/decimals.java" />
+        <option value="$PROJECT_DIR$/src/us/cyzic/dataTypes/CharsAndStrings.java" />
       </list>
     </option>
   </component>
@@ -155,10 +170,10 @@
       <recent name="us.cyzic.dataTypes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.decimals">
-    <configuration default="false" name="wholeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.CharsAndStrings">
+    <configuration default="false" name="WholeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="us.cyzic.dataTypes.wholeNumbers" />
+      <option name="MAIN_CLASS_NAME" value="us.cyzic.dataTypes.WholeNumbers" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -171,14 +186,34 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="decimals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Decimals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="us.cyzic.dataTypes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="us.cyzic.dataTypes.decimals" />
+      <option name="MAIN_CLASS_NAME" value="us.cyzic.dataTypes.Decimals" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Lecture-019" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CharsAndStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="us.cyzic.dataTypes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="us.cyzic.dataTypes.CharsAndStrings" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -435,14 +470,16 @@
       <listeners />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.wholeNumbers" />
-      <item index="1" class="java.lang.String" itemvalue="Application.decimals" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.WholeNumbers" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Decimals" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CharsAndStrings" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.decimals" />
-        <item index="1" class="java.lang.String" itemvalue="Application.wholeNumbers" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.CharsAndStrings" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Decimals" />
+        <item index="2" class="java.lang.String" itemvalue="Application.WholeNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -458,7 +495,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="43" width="1260" height="676" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -470,7 +507,7 @@
       <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17142858" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17142858" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -496,7 +533,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/us/cyzic/dataTypes/wholeNumbers.java">
+    <entry file="file://$PROJECT_DIR$/src/us/cyzic/dataTypes/WholeNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
@@ -504,11 +541,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/us/cyzic/dataTypes/decimals.java">
+    <entry file="file://$PROJECT_DIR$/src/us/cyzic/dataTypes/Decimals.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77720207">
+        <state vertical-scroll-proportion="0.0">
           <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/us/cyzic/dataTypes/CharsAndStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.103626944">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

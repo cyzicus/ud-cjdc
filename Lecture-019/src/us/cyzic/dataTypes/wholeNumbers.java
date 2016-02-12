@@ -1,6 +1,6 @@
 package us.cyzic.dataTypes;
 
-public class wholeNumbers {
+public class WholeNumbers {
 
     public static void main(String[] args) {
         // Integers
